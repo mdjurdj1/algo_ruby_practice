@@ -1,2 +1,4 @@
 def reversedStr(string)
-end 
+  stripped = string.gsub(" ", "").downcase
+  stripped.reverse == stripped
+end
